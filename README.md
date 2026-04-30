@@ -28,8 +28,8 @@ load.py      → chargement dans SQLite via SQLAlchemy
 analyze.py   → requêtes SQL répondant aux 3 questions métier
 ↓
 visualize.py → graphique matplotlib par état
-## Stack technique
 
+## Stack technique
 Python 3.8 · pandas · SQLAlchemy · SQLite · matplotlib
 
 ## Lancer le projet
@@ -47,11 +47,5 @@ python src/visualize.py
 ```
 
 ## Source des données
-
 [Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 — 100k commandes réelles, 2016–2018, licence publique.
-
-Remplace TONUSERNAME puis :
-git add .
-git commit -m "docs: README en français avec résultats et architecture pipeline"
-git push
